@@ -1,0 +1,7 @@
+Team: BOS
+Model1_Accuracy: 0.611
+Model1_AUC: 0.583
+Model2_Accuracy: 0.617
+Model2_AUC: 0.612
+Vars_clean: pts_max_opp_lag5, ft%_max_lag5, mp_opp...77_lag5, ast%_max_lag5
+

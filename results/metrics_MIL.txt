@@ -1,0 +1,7 @@
+Team: MIL
+Model1_Accuracy: 0.616
+Model1_AUC: 0.603
+Model2_Accuracy: 0.622
+Model2_AUC: 0.619
+Vars_clean: fg_max_opp_lag5, ft%_max_lag5, mp_opp...77_lag5, ast%_max_lag5
+
