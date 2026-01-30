@@ -1,18 +1,3 @@
-## How to Run the Project
-
-1. Clone the repository or download it as a ZIP file from GitHub.
-2. Open the project by double-clicking the `.Rproj` file (optional but recommended).
-3. In RStudio, run the following scripts sequentially from the project root:
-
-```r
-source("src/01_load_data.R")
-source("src/02_build_features.R")
-source("src/03_train_eval_team.R")
-All scripts are designed to run from the repository root without manual path adjustments.
-
-Each script includes a DEBUG switch that controls the verbosity of intermediate outputs.
-
-
 # NBA Match Outcome Prediction (R)
 
 This project focuses on predicting the outcome of an NBA game **before the game is played**, using only **pre-game information** derived from teams’ recent performances.
@@ -21,7 +6,22 @@ The core idea is to move away from post-game explanation models and instead buil
 
 All modeling decisions are intentionally conservative and interpretable, prioritizing **realistic usage and reproducibility** over overfitted accuracy.
 
----
+------
+
+## How to Run the Project
+
+1. Clone the repository or download it as a ZIP file from GitHub.
+2. Open the project by double-clicking the `.Rproj` file (optional but recommended).
+3. In RStudio, run the following scripts sequentially from the project root:
+
+source("src/01_load_data.R")
+source("src/02_build_features.R")
+source("src/03_train_eval_team.R")
+All scripts are designed to run from the repository root without manual path adjustments.
+
+Each script includes a DEBUG switch that controls the verbosity of intermediate outputs.
+
+------
 
 ## Motivation & Context
 
@@ -224,3 +224,4 @@ This project prioritizes:
 - careful handling of temporal data
 
 - clarity over overfitting
+
