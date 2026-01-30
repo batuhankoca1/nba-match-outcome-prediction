@@ -14,9 +14,11 @@ All modeling decisions are intentionally conservative and interpretable, priorit
 2. Open the project by double-clicking the `.Rproj` file (optional but recommended).
 3. In RStudio, run the following scripts sequentially from the project root:
 
+```r
 source("src/01_load_data.R")
 source("src/02_build_features.R")
 source("src/03_train_eval_team.R")
+```
 All scripts are designed to run from the repository root without manual path adjustments.
 
 Each script includes a DEBUG switch that controls the verbosity of intermediate outputs.
@@ -206,12 +208,14 @@ Each script includes a `DEBUG` switch:
 
 ```r
 DEBUG <- TRUE
+```
 
 TRUE: shows intermediate outputs and visual checks
 
 FALSE: runs silently in production mode
 
 All scripts can be executed sequentially from the repository root.
+
 
 ## Notes
 
